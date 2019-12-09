@@ -29,5 +29,5 @@ def makecalc():
     return result
 
 if __name__ == '__main__':
-    model = p.load(open('../rf.pickle', 'rb'))
+    model = p.load(open('rf.pickle', 'rb'))
     app.run(host='0.0.0.0', port=int("9999"),)

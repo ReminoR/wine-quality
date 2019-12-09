@@ -10,3 +10,5 @@
 curl -d "[7.4, 0.7, 0.0, 1.9, 0.076, 11.0, 34.0, 0.9978, 3.51, 0.56, 9.4]" -X POST http://127.0.0.1:5000/rf_model/
 
 Пример запроса python через библиотеку requests находится в файле: requests_example.py
+
+HTML версия Jupyter Notebook находится по ссылке: https://reminor.github.io/wine-quality/

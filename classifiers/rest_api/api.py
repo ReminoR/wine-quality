@@ -30,4 +30,4 @@ def makecalc():
 
 if __name__ == '__main__':
     model = p.load(open('../rf.pickle', 'rb'))
-    app.run(host='127.0.0.1')
+    app.run(host='0.0.0.0', port=int("9999"),)

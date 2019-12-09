@@ -8,7 +8,7 @@ def main():
     return json.loads(answer)
 
 def get_requests(data):
-    url = 'http://127.0.0.1:5000/rf_model/'
+    url = 'http://0.0.0.0:9999/rf_model/'
     headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
 
     r = requests.post(url, data=json.dumps(data), headers=headers)
